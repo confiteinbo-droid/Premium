@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  background: #e4e7fd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+.menu-item {
+  color: #000000;
+  padding: 0.1rem 0.2rem;
+}
+.cta {
+  background: rgb(108, 108, 219);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+a {
+  transition: transform 0.3s ease;
+}
+a:hover {
+  transform: translateY(-2px);
+}
